@@ -1,9 +1,12 @@
 body {
-    background: #fff;
+    background: #9d9d9d;
     color: #333;
     font-size: 12px;
     margin-top: 5px;
     font-family: "SimSun","宋体","Arial Narrow";
+
+
+
 }
 
 .header{
@@ -78,18 +81,23 @@ body {
     justify-content: center;
 }
 .content {
-    margin-top:60px;
+    position: relative;
 }
 .content .content-left .content-left-item{
 
     width: 60%;
-
+    margin-top:40px;
     float: left;
+    display: inline-block;
 
     overflow: hidden;
     display: table-cell;
     vertical-align: middle;
 
+}
+.content .content-left .content-left-item{
+    padding-bottom: 40px;
+    border-bottom: solid darkgrey 1px;
 }
 .content .content-left .content-left-item div{
     margin-bottom: 10px;
@@ -105,22 +113,26 @@ body {
 }
 .content .content-left .content-left-item .content-left-item-title{
 
-
+    margin-top: 20px;
     font-size: 30px;
     font-weight: 600;
 }
 .content .content-left .content-left-item .content-left-item-content{
     color:darkgray;
-    line-height: 25px;
+    line-height: 28px;
+    margin-top: 20px;
+    font-size:16px;
 
 }
 
 .content .content-left .content-left-item .content-left-item-footer{
+    margin-top:35px;
     vertical-align: center;
 }
 .content .content-right {
-    width: 40%;
-    height: 500px;
-    float: left;
-    background: #a6e1ec;
+    width: 35%;
+    height: 800px;
+    position: absolute;
+    top:50px;
+    right: 0px;
 }
